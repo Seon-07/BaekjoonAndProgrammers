@@ -1,6 +1,7 @@
 package programmers;
 
 public class 성격유형검사하기 {
+	
 	public String solution(String[] survey, int[] choices) {
         String result = "";
 		int[] scores = new int[8];
