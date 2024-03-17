@@ -4,6 +4,7 @@ class Solution {
         dfs(numbers,target, 0, 0);
         return answer;
     }
+    
     void dfs(int[] numbers, int target, int index, int sum){
         if(index == numbers.length){
             if(sum == target){
