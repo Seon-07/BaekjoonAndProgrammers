@@ -1,7 +1,6 @@
 import java.util.*;
 class Solution {
     public int[] solution(int[] progresses, int[] speeds) {
-        int[] works = new int[progresses.length];
         List<Integer> result = new ArrayList<>();
         Queue<Integer> que = new ArrayDeque<>();
         for(int i = 0; i < progresses.length; i++){
