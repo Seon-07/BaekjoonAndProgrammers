@@ -7,8 +7,8 @@ class Solution {
             List<Integer> numList = new ArrayList<>();
             for(int i = comm[0]-1; i < comm[1]; i++){
                 numList.add(array[i]);
-                numList.sort(null);
             }
+            numList.sort(null);
             answer[idx] = numList.get(comm[2]-1);
             idx++;
         }
