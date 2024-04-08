@@ -1,0 +1,1 @@
+class Solution{String solution(int n){return n+"";}}
