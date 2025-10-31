@@ -11,7 +11,6 @@ class Solution {
                 j++;
                 continue;
             }
-            System.out.println(i + " " + j);
             return "No";
         }
         return "Yes";
